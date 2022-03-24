@@ -1,5 +1,9 @@
 /* This is the base CSS file */
 
+* {
+	margin: 0;
+	padding: 0;
+}
 
 /* Border Box */
 html {
@@ -236,12 +240,13 @@ img {
 }
 
 .solid-btn {
-	display: inline-block;
+	display: block;
+	width: 175px;
 	padding: 15px 25px;
 	background-color: #ff9a1f;
 	font-size: 20px;
 	border-radius: 30px;
-	margin-bottom: 30px;
+	margin: 30px auto;
 	color: #000000;
 	text-decoration: none;
 	cursor: pointer;
