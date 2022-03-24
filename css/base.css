@@ -1,0 +1,338 @@
+/* This is the base CSS file */
+
+
+/* Border Box */
+html {
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+}
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+/* Basic Styles*/
+
+
+
+body {
+	background-image: url("../images/starbackground@2x.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #000000;
+	font-family: century-gothic, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+	font-size: 100%;
+	line-height: 1.5em;
+	text-align: left;
+	}
+
+/* Typography */
+
+hr {
+    height: 1px;
+    width: 600px;
+    border-width: 0;
+    color: #262223;
+    background-color: #262223;
+    margin-bottom: 50px;
+  }
+
+p {
+	font-size: .9em;
+	margin: 50px 50px 50px 50px; 
+	
+}
+
+
+h1 {
+	font-family: mr-darcy,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+	font-size: 3em;
+	line-height: 1.1;
+	text-align: center;
+	
+}
+h2 {
+	font-family: mr-darcy,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+	font-size: 3em;
+	line-height: 1.1;
+    padding-top: 50px;
+	padding-bottom: 50px;
+	
+}
+h3 {
+	font-family: mr-darcy,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+	font-size: 1.375em;
+	line-height: 1.1;
+    text-align: center;
+	
+}
+h4 {
+	font-family: mr-darcy,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+	font-size: 1em;
+	line-height: 1.1;
+}
+h5 {
+	font-family: mr-darcy,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+	font-size: 0.938em;
+	line-height: 1.1;
+}
+h6 {
+	font-family: mr-darcy,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+	font-size: 0.813em;
+	line-height: 1.1;
+}
+
+ .large-text {
+	font-size: 1.375em;
+	line-height: 1.4;
+}
+
+.small-text {
+	font-size: 0.750em;
+	line-height: 1.2
+}
+
+
+/* Simple Grid - 12 columns 60/20 */
+
+.columns_1 {
+	width: 940px;
+	float: left;
+    margin-left: 38px;
+}
+
+.columns_2 {
+	width: 460px;
+	float: left;
+	margin-right: -12px;
+    margin-left: 37px;
+}
+
+.columns_2:last-of-type {
+	margin-right: 0;
+}
+
+.columns_3 {
+	width: 300px;
+	float: left;
+	margin-right: 20px;
+}
+
+.columns_3:last-of-type {
+	margin-right: 0;
+}
+
+.columns_4 {
+	width: 220px;
+	float: left;
+	margin-right: 20px;
+}
+
+.columns_4:last-of-type {
+	margin-right: 0;
+}
+
+.columns_6 {
+	width: 140px;
+	float: left;
+	margin-right: 20px;
+}
+
+.columns_6:last-of-type {
+	margin-right: 0;
+}
+
+.columns_12 {
+	width: 60px;
+	float: left;
+	margin-right: 20px;
+}
+
+.columns_12:last-of-type {
+	margin-right: 0;
+}
+
+/* Misc HTML*/
+
+.align-right {
+	float: right;
+	margin: 0 0 0 10px;
+	padding: 0;
+}
+
+.align-left {
+	float: left;
+	margin: 0 10px 0 0;
+	padding: 0;
+}
+
+.align-center {
+	display: block;
+	margin: 0 auto;
+}
+
+.nav-container {
+	width: 1020px;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+
+}
+
+.container {
+	width: 1020px;
+	display: block;
+	margin: 0 auto;
+    padding-bottom: 50px;
+    padding-top: 50px;
+	overflow: hidden;
+	clear: both;
+    background-color: #F9F0DE;
+}
+
+
+
+img {
+	width: 100%;
+	display: block;
+}
+
+
+.section-head {
+	margin-top: 0;
+	margin-bottom: 5px;
+	text-align: center;
+	
+}
+
+.section-copy {
+	font-size: .9em;
+	text-align: center;
+	
+}
+
+
+
+
+/* Buttons */
+.button-lesson {
+	width: 100%;
+	padding: 100px 0;
+	background-color: #94ddff;
+}
+
+.solid-btn {
+	display: inline-block;
+	padding: 15px 25px;
+	background-color: #ff9a1f;
+	font-size: 20px;
+	border-radius: 30px;
+	margin-bottom: 30px;
+	color: #000000;
+	text-decoration: none;
+	cursor: pointer;
+	
+}
+
+.solid-btn:hover {
+	background-color: #ff8521;
+}
+
+.lt-otl-btn {
+	display: inline-block;
+	padding: 12px 25px;
+	border: 1px solid #ffffff;
+	font-size: 20px;
+	border-radius: 5px;
+	margin-bottom: 20px;
+	color: #ffffff;
+	text-decoration: none;
+	cursor: pointer;
+	
+}
+.lt-otl-btn:hover {
+	color: #000000;
+	border-color: #000000;
+}
+
+.drk-otl-btn {
+	display: inline-block;
+	padding: 12px 25px;
+	border: 1px solid #000000;
+	font-size: 20px;
+	border-radius: 5px;
+	margin-bottom: 20px;
+	color: #000000;
+	text-decoration: none;
+	cursor: pointer;
+}
+.drk-otl-btn:hover {
+	color: #fff;
+	border-color: #fff;
+}
+
+.solid-submit-btn {
+	display: inline-block;
+	padding: 15px 25px;
+	background-color: #d3d3d3;
+	font-size: 20px;
+	border-radius: 25px;
+	margin-bottom: 20px;
+	color: #000000;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.solid-submit-btn:hover {
+	background-color: #7199b3; 
+}
+
+.lt-otl-submit-btn {
+	display: inline-block;
+	padding: 15px 25px;
+	border: 1px solid #ffffff;
+	background-color:transparent;
+	font-size: 20px;
+	border-radius: 25px;
+	margin-bottom: 20px;
+	color: #fff;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.lt-otl-submit-btn:hover {
+	color: #000;
+	border-color: #000;
+}
+
+.drk-otl-submit-btn {
+	display: inline-block;
+	padding: 15px 25px;
+	border: 1px solid #000;
+	background-color:transparent;
+	font-size: 20px;
+	border-radius: 25px;
+	margin-bottom: 20px;
+	color: #000;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.drk-otl-submit-btn:hover {
+	color: #fff;
+	border-color: #fff;
+}
