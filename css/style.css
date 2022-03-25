@@ -16,12 +16,13 @@ header {
 }
 
 .logo {
-	width: 25%;
-	height: 50px;
-	margin-top: 50px;
+	
+	width: 30%;
+	height: 100px;
+	margin-top: 90px;
 	margin-bottom: 50px;
 	float: left;
-	background: url("../images/HalloweenLogo.svg") no-repeat;
+	background: url("../images/HalloweenLogo2.svg") no-repeat;
 	
 }
 
@@ -171,7 +172,7 @@ nav li a:active {
 footer {
 	width: 100%;
 	padding: 50px 0;
-	text-align: left;
+	text-align: center;
 	background-color: #0C1213;
 }
 
